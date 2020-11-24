@@ -559,19 +559,19 @@ namespace Emby.Server.Implementations.Library
 
                     if (width >= 3000)
                     {
-                        videoStream.BitRate = 30000000;
+                        videoStream.BitRate = 2147483647;
                     }
                     else if (width >= 1900)
                     {
-                        videoStream.BitRate = 20000000;
+                        videoStream.BitRate = 2147483647;
                     }
                     else if (width >= 1200)
                     {
-                        videoStream.BitRate = 8000000;
+                        videoStream.BitRate = 2147483647;
                     }
                     else if (width >= 700)
                     {
-                        videoStream.BitRate = 2000000;
+                        videoStream.BitRate = 2000000000;
                     }
                 }
             }
@@ -749,19 +749,19 @@ namespace Emby.Server.Implementations.Library
 
                     if (width >= 3000)
                     {
-                        videoStream.BitRate = 30000000;
+                        videoStream.BitRate = 2147483647;
                     }
                     else if (width >= 1900)
                     {
-                        videoStream.BitRate = 20000000;
+                        videoStream.BitRate = 2147483647;
                     }
                     else if (width >= 1200)
                     {
-                        videoStream.BitRate = 8000000;
+                        videoStream.BitRate = 2147483647;
                     }
                     else if (width >= 700)
                     {
-                        videoStream.BitRate = 2000000;
+                        videoStream.BitRate = 2000000000;
                     }
                 }
 
